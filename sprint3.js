@@ -16,7 +16,8 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "235-evol-popin-sensibilisatio
 var tache2 = creerBrancheDeTache(fonctionnalite1, "242-evol-notif-20-2-raf-...-verrouillage-tel");
 var tache3 = creerBrancheDeTache(tache2, "merge-242-et-integration_app_20_2");
 var tache4 = creerBrancheDeTache(fonctionnalite1, "257-q4q-3165-evol-notification-app-evolution-de-la-pop-in-de-sensibilisation-et-relance-actuelle");
-var tache5 = creerBrancheDeTache(fonctionnalite1, "2549-remplacer-la-pop-in-notification-apres-enrolement-c-par-une-pop-in-d-incitation-a-l-activation-notification-os");
+var tache6 = creerBrancheDeTache(fonctionnalite1, "2549-remplacer-la-pop-in-notification-apres-enrolement-c-par-une-pop-in-d-incitation-a-l-activation-notification-os");
+var tache7 = creerBrancheDeTache(fonctionnalite1, "258-3563-notification-suppression-de-la-pop-in-fenetre-existante-sur-les-verrouillage");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache5 = creerBrancheDeTache(fonctionnalite2, "2235_mise_a_jour_centre_notifications");
 
@@ -28,6 +29,7 @@ fonctionnalite1.merge(tache1);
 tache3.merge(integration);
 tache2.merge(tache3);
 fonctionnalite1.merge(tache2);
+fonctionnalite1.merge(tache7);
 //fonctionnalite1.merge(tache4);
-//fonctionnalite1.merge(tache4);
+
 // FUSION aprés DEMO
