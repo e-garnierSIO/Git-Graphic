@@ -27,6 +27,6 @@ fonctionnalite1.merge(tache1);
 tache3.merge(integration);
 tache2.merge(tache3);
 fonctionnalite1.merge(tache2);
-fonctionnalite1.merge(tache3);
+fonctionnalite1.merge(tache4);
 
 // FUSION aprés DEMO
