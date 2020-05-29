@@ -31,6 +31,8 @@ tache2.merge(tache3);
 fonctionnalite1.merge(tache2);
 fonctionnalite1.merge(tache7);
 fonctionnalite2.merge(tache5);
+var merge_sprint = creerBrancheDeMerge(brancheSprint, "merge_r01_s03");
+merge_sprint.merge(fonctionnalite2);
 //fonctionnalite1.merge(tache4);
 
 // FUSION aprés DEMO
