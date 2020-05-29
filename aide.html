@@ -160,6 +160,24 @@
                           var brancheSprint = creerBrancheDeSprint("twenty_r00_s00");
                           var brancheSpikes = creerBrancheDeSpikes("spikes_twenty_r00_s00");
                       </script>
+                      <br>
+                      <br>
+                      <h2 class="sous-titre">MERGE</h2>
+                      <p>Dans le fichier sprintX.js, si une branche de merges est à créer, la créer après la branche de sprint :</p>
+                      <div class="code">
+                        var merge_sprint = creerBrancheDeMerge(brancheSprint, "merge_r00_s00");
+                      </div>
+                      <br>
+                      <div id="graph-exemple7"></div>
+                      <script>
+                          var sprintY = creerGitGraph("graph-exemple7");
+                          var master = creerBrancheMaster(sprintY);
+                          var integration = creerBrancheIntegration("integration_app_Y");
+                          var fonctionnalite1 = creerBrancheDeFonctionnalite("f_nom_de_la_fonctionnalite");
+                          var tache1 = creerBrancheDeTache(fonctionnalite1, "0000_nom_de_la_tache");
+                          var brancheSprint = creerBrancheDeSprint("twenty_r00_s00");
+                          var merge_sprint = creerBrancheDeMerge(brancheSprint, "merge_r00_s00");
+                      </script>
                 </div>
                 <!----------------------------------------------------------------------------------------------------->
                 <div class="swiper-slide">
@@ -170,9 +188,9 @@
                         fonctionnalite1.merge(tache1);
                     </div>
                     <br>
-                    <div id="graph-exemple7"></div>
+                    <div id="graph-exemple8"></div>
                     <script>
-                        var sprintY = creerGitGraph("graph-exemple7");
+                        var sprintY = creerGitGraph("graph-exemple8");
                         var master = creerBrancheMaster(sprintY);
                         var integration = creerBrancheIntegration("integration_app_Y");
                         var fonctionnalite1 = creerBrancheDeFonctionnalite("f_nom_de_la_fonctionnalite");
@@ -187,9 +205,9 @@
                         brancheSprint.merge(fonctionnalite1);
                     </div>
                     <br>
-                    <div id="graph-exemple8"></div>
+                    <div id="graph-exemple9"></div>
                     <script>
-                        var sprintY = creerGitGraph("graph-exemple8");
+                        var sprintY = creerGitGraph("graph-exemple9");
                         var master = creerBrancheMaster(sprintY);
                         var integration = creerBrancheIntegration("integration_app_Y");
                         var fonctionnalite1 = creerBrancheDeFonctionnalite("f_nom_de_la_fonctionnalite");
@@ -205,9 +223,9 @@
                         creerMerge(integration, fonctionnalite1);
                     </div>
                     <br>
-                    <div id="graph-exemple9"></div>
+                    <div id="graph-exemple10"></div>
                     <script>
-                        var sprintY = creerGitGraph("graph-exemple9");
+                        var sprintY = creerGitGraph("graph-exemple10");
                         var master = creerBrancheMaster(sprintY);
                         var integration = creerBrancheIntegration("integration_app_Y");
                         var fonctionnalite1 = creerBrancheDeFonctionnalite("f_nom_de_la_fonctionnalite");
