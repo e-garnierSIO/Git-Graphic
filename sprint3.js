@@ -35,6 +35,7 @@ fonctionnalite1.merge(tache2);
 fonctionnalite1.merge(tache7);
 fonctionnalite2.merge(tache5);
 merge_sprint.merge(fonctionnalite2);
-//fonctionnalite1.merge(tache4);
+merge_sprint.merge(fonctionnalite1);
+brancheSprint.merge(merge_sprint);
 
 // FUSION aprés DEMO
