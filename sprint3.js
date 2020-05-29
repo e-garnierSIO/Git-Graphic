@@ -24,6 +24,9 @@ var tache5 = creerBrancheDeTache(fonctionnalite2, "2235_mise_a_jour_centre_notif
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
 
+// Branche MERGE
+var merge_sprint = creerBrancheDeMerge(brancheSprint, "merge_r01_s03");
+
 // MERGES --------------------
 fonctionnalite1.merge(tache1);
 tache3.merge(integration);
@@ -31,7 +34,6 @@ tache2.merge(tache3);
 fonctionnalite1.merge(tache2);
 fonctionnalite1.merge(tache7);
 fonctionnalite2.merge(tache5);
-var merge_sprint = creerBrancheDeMerge(brancheSprint, "merge_r01_s03");
 merge_sprint.merge(fonctionnalite2);
 //fonctionnalite1.merge(tache4);
 
