@@ -13,6 +13,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_refonte_moteur_sensibilisation_relance");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_evolution_notifications");
+var tache2 = creerBrancheDeTache(fonctionnalite2, "2235_mise_a_jour_centre_notifications");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_inbenta");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "2805-integration-du-nouveau-sdk-inbenta");
 
