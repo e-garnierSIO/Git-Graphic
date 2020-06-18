@@ -4,10 +4,7 @@ var sprint4 = creerGitGraph("graph-container-4");
 // Branche MASTER
 var master = creerBrancheMaster(sprint4);
 
-//provisoir (integration_app_20_2 issue d'integration_app_20)
-var integration0 = master.branch("integration_app_20");
-integration0.commit("start");
-var integration = integration0.branch("integration_app_20_2");
+var integration = master.branch("integration_app_20_2");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
@@ -17,12 +14,15 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "2235_mise_a_jour_centre_notifications");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_inbenta");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "2805-integration-du-nouveau-sdk-inbenta");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_refacto_centre_notif_moteur_sensi");
+
 
 // Branche SPRINT
 //var brancheSprint = creerBrancheDeSprint("twenty_r01_s04");
 
 // Branche MERGE
-
+fonctionnalite4.merge(fonctionnalite1);
+fonctionnalite4.merge(fonctionnalite2);
 // MERGES --------------------
 
 
