@@ -18,7 +18,8 @@ var tache1 = creerBrancheDeTache(fonctionnalite3, "2805-integration-du-nouveau-s
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_refacto_centre_notif_moteur_sensi");
 var tache3 = creerBrancheDeTache(fonctionnalite4, "275-3577-suppression-de-la-pop-in");
 var tache5 = creerBrancheDeTache(fonctionnalite4, "276-3165-evolution-sensibilisation-relance-notification");
-
+var fonctionnalite5 = creerBrancheDeFonctionnalite("f_cgu");
+var tache7 = creerBrancheDeTache(fonctionnalite5, "2214-uniformisation-cgu-pdf-unique");
 
 // Branche SPRINT
 //var brancheSprint = creerBrancheDeSprint("twenty_r01_s04");
