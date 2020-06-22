@@ -29,6 +29,7 @@ fonctionnalite1.merge(tache4);
 fonctionnalite4.merge(tache2);
 fonctionnalite4.merge(fonctionnalite1);
 fonctionnalite4.merge(tache3);
+fonctionnalite4.merge(tache5);
 tache5.merge(tache6);
 // MERGES --------------------
 
