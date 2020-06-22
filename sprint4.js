@@ -11,6 +11,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_refonte_moteur_sensibilisation_relance");
 var tache4 = creerBrancheDeTache(fonctionnalite1, "a_3560-Affichage-picto-sensi-verrouillage-telephone");
 var tache6 = creerBrancheDeTache(fonctionnalite1, " 257-q4q-3165-evol-notification-app-evolution-de-la-pop-in-de-sensibilisation-et-relance-actuelle");
+var tache8 = creerBrancheDeTache(fonctionnalite1, "a_2549_remplacer_pop-in_notification_apres_enrolement_certicode_plus");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "2235_mise_a_jour_centre_notifications");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_inbenta");
