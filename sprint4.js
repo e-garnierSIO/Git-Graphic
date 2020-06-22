@@ -35,10 +35,11 @@ fonctionnalite4.merge(tache3);
 fonctionnalite4.merge(tache5);
 fonctionnalite4.merge(fonctionnalite1);
 tache5.merge(tache6);
+
+// MERGES --------------------
 fonctionnalite7.merge(fonctionnalite3);
 fonctionnalite7.merge(fonctionnalite4);
 fonctionnalite7.merge(fonctionnalite5);
-// MERGES --------------------
-
+fonctionnalite8.merge(fonctionnalite7);
 
 // FUSION aprés DEMO
