@@ -43,3 +43,6 @@ brancheMerge.merge(fonctionnalite5);
 brancheSprint.merge(brancheMerge);
 
 // FUSION aprés DEMO
+creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite4);
+creerMerge(integration, fonctionnalite6);
