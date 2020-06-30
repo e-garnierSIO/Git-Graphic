@@ -44,3 +44,4 @@ brancheSprint.merge(brancheMerge);
 
 // FUSION aprés DEMO
 creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite4);
