@@ -12,6 +12,8 @@ integration.commit("start");
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_integration_wkwebview");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "298-3969-integration_wkwebview");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_integration_sdk_5-6");
+var tache2 = creerBrancheDeTache(fonctionnalite2, "3936-integration-sdk-5-6");
 
 // Branche SPRINT
 
