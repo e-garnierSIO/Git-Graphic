@@ -14,7 +14,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_integration_wkwebview");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "298-3969-integration_wkwebview");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_integration_sdk_5-6");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "3936-integration-sdk-5-6");
-var fonctionnalité3 = creerBrancheDeFonctionnalite("f_IARD");
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_IARD");
 var tache3 = creerBrancheDeTache(fonctionnalite3, "3359-iard-dashboard-vignette-promotionnelle");
 
 
