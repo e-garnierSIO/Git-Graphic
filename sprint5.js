@@ -16,6 +16,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_integration_sdk_5-6");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "3936-integration-sdk-5-6");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_IARD");
 var tache3 = creerBrancheDeTache(fonctionnalite3, "3359-iard-dashboard-vignette-promotionnelle");
+var tache4 = creerBrancheDeTache(fonctionnalite3, "3362-iard-evolution-du-menu-gerer");
 
 
 
