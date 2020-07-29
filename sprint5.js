@@ -27,6 +27,7 @@ var tache4 = creerBrancheDeTache(fonctionnalite3, "3362-iard-evolution-du-menu-g
 
 
 // MERGES --------------------
+fonctionnalite1.merge(tache1);
 
 
 // FUSION aprés DEMO
