@@ -30,6 +30,7 @@ var brancheMerge = creerBrancheDeMerge(brancheSprint,"merge_r20-4_s01");
 fonctionnalite1.merge(tache1);
 fonctionnalite2.merge(tache2);
 fonctionnalite3.merge(tache4);
+brancheMerge.merge(fonctionnalite2);
 
 
 // FUSION aprés DEMO
