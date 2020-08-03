@@ -31,6 +31,7 @@ fonctionnalite1.merge(tache1);
 fonctionnalite2.merge(tache2);
 fonctionnalite3.merge(tache4);
 brancheMerge.merge(fonctionnalite2);
+brancheMerge.merge(fonctionnalite1);
 
 
 // FUSION aprés DEMO
