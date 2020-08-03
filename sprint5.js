@@ -19,11 +19,11 @@ var tache3 = creerBrancheDeTache(fonctionnalite3, "3359-iard-dashboard-vignette-
 var tache4 = creerBrancheDeTache(fonctionnalite3, "3362-iard-evolution-du-menu-gerer");
 
 
-
 // Branche SPRINT
-
+var brancheSprint = creerBrancheDeSprint("twenty_r20-4_s01");
 
 // Branche MERGE
+var brancheMerge = creerBrancheDeMerge(brancheSprint,"merge_r20-4_s01");
 
 
 // MERGES --------------------
