@@ -24,7 +24,9 @@ var tache4 = creerBrancheDeTache(fonctionnalite1, "3360-4169-iard-changement-lib
 
 
 // MERGES --------------------
-
+fonctionnalite1.merge(tache2);
+fonctionnalite1.merge(tache3);
+fonctionnalite1.merge(tache4);
 
 // FUSION aprés DEMO
 
