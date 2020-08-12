@@ -14,7 +14,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_IARD");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "3359-iard-dashboard-vignette-promotionnelle");
 var tache2 = creerBrancheDeTache(fonctionnalite1, "3363-iard-evolution-contacts-et-mentions");
 var tache3 = creerBrancheDeTache(fonctionnalite1, "3760-iard-debranchements-vers-iframe-iard");
-var tache4 = creerBrancheDeTache(fonctionnalite1, "3360-iard-changement-libelles-stripes-produits-sur-le-dashboard-et-mes-comptes");
+var tache4 = creerBrancheDeTache(fonctionnalite1, "3360-4169-iard-changement-libelles");
 
 
 
