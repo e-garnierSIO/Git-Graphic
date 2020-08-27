@@ -18,7 +18,8 @@ integration.merge(brancheMAJ);
 
 
 // Branches FONCTIONNALITE et TACHES
-
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_IARD");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_smartblette");
 
 // Branche SPRINT
 
