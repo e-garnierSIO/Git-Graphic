@@ -11,6 +11,12 @@ var integration = integration0.branch("integration_systemteam_r20_4");
 integration.commit("start");
 
 
+// Branche de mise a jour
+var brancheMAJ = creerBrancheDeMerge(integration0,"merge_20_3_dans_20_4");
+brancheMAJ.merge(integration);
+integration.merge(brancheMAJ);
+
+
 // Branches FONCTIONNALITE et TACHES
 
 
