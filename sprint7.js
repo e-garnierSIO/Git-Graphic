@@ -12,7 +12,7 @@ integration.commit("start");
 
 
 // Branche de mise a jour
-var brancheMAJ = creerBrancheDeMerge(integration0,"merge_20_3_dans_20_4");
+var brancheMAJ = creerBrancheDeMerge(integration0,"merge_20_3_vers_20_4");
 brancheMAJ.merge(integration);
 integration.merge(brancheMAJ);
 
