@@ -27,6 +27,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_smartblette");
 
 
 // MERGES --------------------
+fonctionnalite2.merge(tache3);
 
 
 // FUSION aprés DEMO
