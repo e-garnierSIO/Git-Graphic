@@ -19,6 +19,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_IARD");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "4329-iard-changement-url-environnement-pre-prod");
 var tache3 = creerBrancheDeTache(fonctionnalite2, "3360-4169-iard-changement-libelles");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_smartblette");
+var tache4 = creerBrancheDeTache(integration, "4167-localstorage-integration-maintien-du-profil-avec-wk-webview");
 
 // Branche SPRINT
 
