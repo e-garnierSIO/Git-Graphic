@@ -25,7 +25,7 @@ var tache5 = creerBrancheDeTache(integration, "4167-localstorage-integration-mai
 var tache6 = creerBrancheDeTache(integration, "4457-pas-ouverture-de-la-popin-notification");
 
 // Branche SPRINT
-
+var brancheSprint = creerBrancheDeSprint("twenty_r20-4_s03");
 
 // Branche MERGE
 
