@@ -33,6 +33,7 @@ var tache6 = creerBrancheDeTache(integration, "4457-pas-ouverture-de-la-popin-no
 // MERGES --------------------
 fonctionnalite2.merge(tache3);
 fonctionnalite2.merge(tache4);
+fonctionnalite2.merge(tache7);
 
 
 // FUSION aprés DEMO
