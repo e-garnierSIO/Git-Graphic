@@ -22,7 +22,7 @@ var tache4 = creerBrancheDeTache(fonctionnalite2, "4577-SB-IARD");
 var tache7 = creerBrancheDeTache(fonctionnalite2, "a_4608-redirection-vignette-promotionnel-iard");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_regul_plugins_cordova");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_sensi_relance");
-var tache7 = creerBrancheDeTache(integration, "339-passage-j2-relance");
+var tache8 = creerBrancheDeTache(integration, "339-passage-j2-relance");
 var tache5 = creerBrancheDeTache(integration, "4167-localstorage-integration-maintien-du-profil-avec-wk-webview");
 var tache6 = creerBrancheDeTache(integration, "4457-pas-ouverture-de-la-popin-notification");
 
