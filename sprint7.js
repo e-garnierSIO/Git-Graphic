@@ -37,3 +37,4 @@ fonctionnalite2.merge(tache7);
 
 
 // FUSION aprés DEMO
+creerMerge(integration, fonctionnalite3);
