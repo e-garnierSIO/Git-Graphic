@@ -25,6 +25,7 @@ var fonctionnalite4 = creerBrancheDeFonctionnalite("f_sensi_relance");
 var tache8 = creerBrancheDeTache(fonctionnalite4, "339-passage-j2-relance (4615)");
 var tache5 = creerBrancheDeTache(integration, "4167-localstorage-integration-maintien-du-profil-avec-wk-webview");
 var tache6 = creerBrancheDeTache(integration, "4457-pas-ouverture-de-la-popin-notification");
+var tache9 = creerBrancheDeTache(integration, "a_4371 (fingerprint)");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r20-4_s03");
