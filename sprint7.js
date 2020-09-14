@@ -34,7 +34,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r20-4_s03");
 
 
 // MERGES --------------------
-//fonctionnalite1.merge(tache1);
+fonctionnalite1.merge(tache1);
 fonctionnalite2.merge(tache2);
 fonctionnalite2.merge(tache3);
 fonctionnalite2.merge(tache4);
@@ -44,6 +44,7 @@ brancheSprint.merge(tache9);
 brancheSprint.merge(tache6);
 brancheSprint.merge(fonctionnalite2);
 brancheSprint.merge(fonctionnalite4);
+brancheSprint.merge(fonctionnalite1);
 
 
 // FUSION aprés DEMO
