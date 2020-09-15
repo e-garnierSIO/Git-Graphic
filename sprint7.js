@@ -50,3 +50,8 @@ brancheSprint.merge(tache5);
 
 // FUSION aprés DEMO
 creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite1);
+creerMerge(integration, fonctionnalite2);
+creerMerge(integration, tache5);
+creerMerge(integration, tache6);
+creerMerge(integration, tache9);
