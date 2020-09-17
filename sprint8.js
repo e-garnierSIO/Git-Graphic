@@ -9,7 +9,7 @@ var integration = master.branch("integration_systemteam_r20_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
-
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 
 
 
