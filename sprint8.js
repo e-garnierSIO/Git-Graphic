@@ -9,7 +9,7 @@ var integration = master.branch("integration_systemteam_r20_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
-var tache1 = creerBrancheDeTache(integration, "a_4674-iard-affichage-la-vignette-promotionnelle-pour-un-client-avec-une-assurance-hors-perimetrie");
+
 
 
 
