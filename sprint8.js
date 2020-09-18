@@ -10,7 +10,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
-var fonctionnalite2 = creerBrancheDeFonctionnalite("f_sensi_relance");
+
 
 
 
