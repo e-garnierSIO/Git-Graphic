@@ -9,9 +9,9 @@ var integration = master.branch("integration_systemteam_r20_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
+var tache1 = creerBrancheDeTache(integration, "correction_connection_tablette_20_3");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_4719_outillage_sdkta");
-var tache1 = creerBrancheDeTache(integration, "correction_connection_tablette_20_3");
 var tache2 = creerBrancheDeTache(integration, "a_4674-iard-affichage-la-vignette-promotionnelle-pour-un-client-avec-une-assurance-hors-perimetrie");
 
 
