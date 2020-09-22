@@ -13,6 +13,7 @@ var tache1 = creerBrancheDeTache(integration, "correction_connection_tablette_20
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_4719_outillage_sdkta");
 var tache3 = creerBrancheDeTache(integration, "344-q4q-4702-certicode-crash-de-l-application-a-l-enrolement");
 var tache4 = creerBrancheDeTache(integration, "a_4748-mode-invite-profil-sauvegarde-a-tord-en-mode-invite");
+var tache5 = creerBrancheDeTache(integration, "a_4647_page_blanche");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 var tache2 = creerBrancheDeTache(integration, "a_4674-iard-affichage-la-vignette-promotionnelle-pour-un-client-avec-une-assurance-hors-perimetrie");
 
