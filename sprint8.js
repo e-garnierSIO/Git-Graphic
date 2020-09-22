@@ -9,7 +9,7 @@ var integration = master.branch("integration_systemteam_r20_4");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
-var tache1 = creerBrancheDeTache(integration, "correction_connection_tablette_20_3");
+var tache1 = creerBrancheDeTache(integration, "correction_connection_tablette_20_3 (4522)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_4719_outillage_sdkta");
 var tache3 = creerBrancheDeTache(integration, "344-q4q-4702-certicode-crash-de-l-application-a-l-enrolement");
 var tache4 = creerBrancheDeTache(integration, "a_4748-mode-invite-profil-sauvegarde-a-tord-en-mode-invite");
