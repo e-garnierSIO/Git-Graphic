@@ -5,7 +5,7 @@ var sprint8 = creerGitGraph("graph-container-8");
 // Branche MASTER
 var master = creerBrancheMaster(sprint8);
 
-var integration = master.branch("integration_systemteam_r20_4");
+var integration = master.branch("integration_systemteam_r20_4 (v11 et 12)");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
@@ -21,11 +21,6 @@ var tache6 = creerBrancheDeTache(integration, "4700-enabler-tester-la-solution-d
 
 
 
-
-
-// Branche SPRINT
-
-
 // Branche MERGE
 creerMerge(integration, tache1);
 creerMerge(integration, fonctionnalite2);
@@ -33,6 +28,9 @@ creerMerge(integration, tache3);
 creerMerge(integration, tache4);
 creerMerge(integration, tache2);
 creerMerge(integration, fonctionnalite3);
+
+// Branche 
+var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v?)");
 
 
 // MERGES --------------------
