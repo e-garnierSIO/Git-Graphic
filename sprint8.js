@@ -17,6 +17,8 @@ var tache2 = creerBrancheDeTache(integration, "a_4674-iard-affichage-la-vignette
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_sensi_relance (4615)");
 var tache5 = creerBrancheDeTache(integration, "a_4647_page_blanche");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
+var tache6 = creerBrancheDeTache(integration, "4700-enabler-tester-la-solution-de-maintient-de-profil-pour-la-wkwebview");
+
 
 
 
