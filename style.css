@@ -107,7 +107,7 @@ li, li a {
     margin: 1em;
 }
 
-[id^=graph-container-] {
+[id^="graph-container-"] {
     height: calc(100vh - 107px);
     width: 100vw;
     overflow: scroll;
