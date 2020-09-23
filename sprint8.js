@@ -5,7 +5,7 @@ var sprint8 = creerGitGraph("graph-container-8");
 // Branche MASTER
 var master = creerBrancheMaster(sprint8);
 
-var integration = master.branch("integration_systemteam_r20_4 (v11 et 12)");
+var integration = master.branch("integration_systemteam_r20_4 (v11 et 12 et 13(IOS))");
 integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
