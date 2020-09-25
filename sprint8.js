@@ -31,12 +31,14 @@ creerMerge(integration, tache2);
 creerMerge(integration, fonctionnalite3);
 
 // Branche d'integration (version 2)
-var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v?)");
+var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v14 et 15)");
 
 // MERGES (version 2)--------------------
 creerMerge(integration2, fonctionnalite4);
 creerMerge(integration2, tache7);
 creerMerge(integration2, tache5);
 
+// Branche d'integration (version 3)
+var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20_4 (v?)");
 
 // FUSION aprés DEMO
