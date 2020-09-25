@@ -22,9 +22,7 @@ var tache7 = creerBrancheDeTache(integration, "a_4755-personnaliser-accueil-appa
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_outillage_plugin_push");
 
 
-
-
-// Branche MERGE
+// MERGES ---------------------
 creerMerge(integration, tache1);
 creerMerge(integration, fonctionnalite2);
 creerMerge(integration, tache3);
@@ -32,12 +30,11 @@ creerMerge(integration, tache4);
 creerMerge(integration, tache2);
 creerMerge(integration, fonctionnalite3);
 
-// Branche 
+// Branche d'integration (version 2)
 var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v?)");
 
-
-// MERGES --------------------
-
+// MERGES (version 2)--------------------
+creerMerge(integration2, fonctionnalite4);
 
 
 // FUSION aprés DEMO
