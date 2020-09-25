@@ -20,6 +20,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_eleme
 var tache6 = creerBrancheDeTache(integration, "4700-enabler-tester-la-solution-de-maintient-de-profil-pour-la-wkwebview");
 var tache7 = creerBrancheDeTache(integration, "a_4755-personnaliser-accueil-apparition-de-la-vignette-assurance-iard");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_outillage_plugin_push");
+var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-probleme-au-clic-sur-le-bouton-annuler-sur-android-et-ios");
 
 
 // MERGES ---------------------
