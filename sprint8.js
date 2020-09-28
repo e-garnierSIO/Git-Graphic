@@ -20,7 +20,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_eleme
 var tache6 = creerBrancheDeTache(integration, "4700-enabler-tester-la-solution-de-maintient-de-profil-pour-la-wkwebview");
 var tache7 = creerBrancheDeTache(integration, "a_4755-personnaliser-accueil-apparition-de-la-vignette-assurance-iard");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_outillage_plugin_push");
-var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-probleme-au-clic-sur-le-bouton-annuler-sur-android-et-ios");
+var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-probleme-au-clic-sur-le-bouton-annuler-sur-android-et-ios (+ 4871)");
 
 
 // MERGES ---------------------
@@ -32,7 +32,7 @@ creerMerge(integration, tache2);
 creerMerge(integration, fonctionnalite3);
 
 // Branche d'integration (version 2)
-var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v14 et 15)");
+var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_r20_4 (v14, 15 et 16)");
 
 // MERGES (version 2)--------------------
 creerMerge(integration2, fonctionnalite4);
