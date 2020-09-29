@@ -22,6 +22,7 @@ var tache7 = creerBrancheDeTache(integration, "a_4755-personnaliser-accueil-appa
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_outillage_plugin_push");
 var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-probleme-au-clic-sur-le-bouton-annuler-sur-android-et-ios (+ 4871)");
 var tache9 = creerBrancheDeTache(integration, "353-c-pop-in-a-la-connexion-sur-jdd-mineur");
+var tache10 = creerBrancheDeTache(integration, "4856-affichage-ecran-blanc");
 
 
 // MERGES ---------------------
@@ -42,5 +43,8 @@ creerMerge(integration2, tache5);
 
 // Branche d'integration (version 3)
 var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20_4 (v?)");
+
+// MERGES (version 3)--------------------
+creerMerge(integration3, tache10);
 
 // FUSION aprés DEMO
