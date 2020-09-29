@@ -24,6 +24,7 @@ var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-pr
 var tache9 = creerBrancheDeTache(integration, "353-c-pop-in-a-la-connexion-sur-jdd-mineur");
 var tache10 = creerBrancheDeTache(integration, "4856-affichage-ecran-blanc");
 var tache11 = creerBrancheDeTache(integration, "4816-ios-pas-d-affichage-des-relances");
+var tache12 = creerBrancheDeTache(integration, "a_4612 ([virement] bouton modifier");
 
 
 // MERGES ---------------------
@@ -48,5 +49,6 @@ var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20
 // MERGES (version 3)--------------------
 creerMerge(integration3, tache10);
 creerMerge(integration3, tache8);
+creerMerge(integration3, tache11);
 
 // FUSION aprés DEMO
