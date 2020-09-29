@@ -47,5 +47,6 @@ var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20
 
 // MERGES (version 3)--------------------
 creerMerge(integration3, tache10);
+creerMerge(integration3, tache8);
 
 // FUSION aprés DEMO
