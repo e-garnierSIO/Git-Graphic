@@ -24,6 +24,8 @@ var tache8 = creerBrancheDeTache(integration, "a_4511-certicode-plus-template-pr
 var tache10 = creerBrancheDeTache(integration, "4856-affichage-ecran-blanc");
 var tache11 = creerBrancheDeTache(integration, "4816-ios-pas-d-affichage-des-relances");
 var tache12 = creerBrancheDeTache(integration, "a_4612 ([virement] bouton modifier");
+var tache9 = creerBrancheDeTache(integration, "356-loader-infini-suite-a-la-reception-de-certaines-notification-lbp (4708)");
+
 
 
 // MERGES ---------------------
@@ -49,5 +51,6 @@ var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20
 creerMerge(integration3, tache10);
 creerMerge(integration3, tache8);
 creerMerge(integration3, tache11);
+creerMerge(integration3, tache9);
 
 // FUSION aprés DEMO
