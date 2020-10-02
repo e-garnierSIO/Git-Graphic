@@ -45,12 +45,17 @@ creerMerge(integration2, tache7);
 creerMerge(integration2, tache5);
 
 // Branche d'integration (version 3)
-var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20_4 (v?)");
+var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_r20_4 (v17 et 18)");
 
 // MERGES (version 3)--------------------
 creerMerge(integration3, tache10);
 creerMerge(integration3, tache8);
 creerMerge(integration3, tache11);
+
+// Branche d'integration (version 4)
+var integration4 = creerBrancheDeMerge(integration3, "integration_systemteam_r20_4 (v?)");
+
+// MERGES (version 4)--------------------
 creerMerge(integration3, tache9);
 
 // FUSION aprés DEMO
