@@ -25,6 +25,7 @@ var tache10 = creerBrancheDeTache(integration, "4856-affichage-ecran-blanc");
 var tache11 = creerBrancheDeTache(integration, "4816-ios-pas-d-affichage-des-relances");
 var tache12 = creerBrancheDeTache(integration, "a_4612 ([virement] bouton modifier");
 var tache9 = creerBrancheDeTache(integration, "356-loader-infini-suite-a-la-reception-de-certaines-notification-lbp (4708)");
+var tache13 = creerBrancheDeTache(integration, "a_4897 (non reception des notifs)");
 
 
 
