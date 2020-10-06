@@ -26,6 +26,7 @@ var tache11 = creerBrancheDeTache(integration, "4816-ios-pas-d-affichage-des-rel
 var tache12 = creerBrancheDeTache(integration, "a_4612 ([virement] bouton modifier");
 var tache9 = creerBrancheDeTache(integration, "356-loader-infini-suite-a-la-reception-de-certaines-notification-lbp (4708)");
 var tache13 = creerBrancheDeTache(integration, "a_4897 (non reception des notifs)");
+var tache14 = creerBrancheDeTache(integration, "a_4751_4925 (ouverture des notifs apres le CVS)");
 
 
 
@@ -60,7 +61,7 @@ var integration4 = creerBrancheDeMerge(integration3, "integration_systemteam_r20
 creerMerge(integration4, tache9);
 
 // Branche d'integration (version 20.5)
-var integration5 = creerBrancheDeMerge(integration4, "integration_systemteam_R20_5");
+var integration5 = creerBrancheDeMerge(integration4, "integration_systemteam_r20_4 (?)");
 
 // MERGES (version 20.5)--------------------
 
