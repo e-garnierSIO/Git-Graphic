@@ -24,6 +24,10 @@ header {
     font-weight: 800;
 }
 
+.logo span {
+    font-weight: 300;
+}
+
 .aide {
     color: #222;
     font-size: 28px;
