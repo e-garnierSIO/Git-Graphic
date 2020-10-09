@@ -27,6 +27,8 @@ var tache12 = creerBrancheDeTache(integration, "a_4612 ([virement] bouton modifi
 var tache9 = creerBrancheDeTache(integration, "356-loader-infini-suite-a-la-reception-de-certaines-notification-lbp (4708)");
 var tache13 = creerBrancheDeTache(integration, "a_4897 (non reception des notifs)");
 var tache14 = creerBrancheDeTache(integration, "a_4751_4925 (ouverture des notifs apres le CVS)");
+var tache15 = creerBrancheDeTache(integration, "4948-maintient-de-profil");
+var tache16 = creerBrancheDeTache(integration, "362-diminution-des-appels-notifications-distantes");
 
 
 
