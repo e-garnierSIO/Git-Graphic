@@ -63,9 +63,15 @@ var integration4 = creerBrancheDeMerge(integration3, "integration_systemteam_r20
 // MERGES (version 4)--------------------
 creerMerge(integration4, tache9);
 
-// Branche d'integration (version 20.5)
-var integration5 = creerBrancheDeMerge(integration4, "integration_systemteam_r20_4 (?)");
+// Branche d'integration (version 5)
+var integration5 = creerBrancheDeMerge(integration4, "integration_systemteam_r20_4 (v21 et v22)");
 
-// MERGES (version 20.5)--------------------
+// MERGES (version 5)--------------------
 creerMerge(integration5, tache14);
 creerMerge(integration5, tache15);
+
+// Branche d'integration (version 6)
+var integration6 = creerBrancheDeMerge(integration5 "integration_systemteam_r20_4 (?)");
+
+// MERGES (version 6)--------------------
+
