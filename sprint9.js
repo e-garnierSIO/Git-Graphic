@@ -11,7 +11,8 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4953_IARD_PDF_iFrame");
-//var tache1 = creerBrancheDeTache(fonctionnalite1, "");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
+var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhogg");
 
 
 // Branche SPRINT
