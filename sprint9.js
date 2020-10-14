@@ -13,6 +13,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4953_IARD_PDF_iFrame");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhogg");
+var tache2 = creerBrancheDeTache(integration, "a_4511-probleme-au-clic-sur-le-bouton-annuler");
 
 
 // Branche SPRINT
