@@ -22,6 +22,6 @@ var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhog
 
 
 // MERGES --------------------
-
+fonctionnalite2.merge(tache1);
 
 // FUSION aprés DEMO
