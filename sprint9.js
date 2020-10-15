@@ -16,6 +16,7 @@ var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhog
 var tache2 = creerBrancheDeTache(integration, "a_4511-probleme-au-clic-sur-le-bouton-annuler");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_wkwebview");
 var tache3 = creerBrancheDeTache(fonctionnalite3, "5007-integration-wkwebview");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 
 
 // Branche SPRINT
