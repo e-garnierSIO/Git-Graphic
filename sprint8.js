@@ -29,6 +29,7 @@ var tache13 = creerBrancheDeTache(integration, "a_4897 (non reception des notifs
 var tache14 = creerBrancheDeTache(integration, "a_4751_4925 (ouverture des notifs apres le CVS)");
 var tache15 = creerBrancheDeTache(integration, "4948-maintient-de-profil");
 var tache16 = creerBrancheDeTache(integration, "362-diminution-des-appels-notifications-distantes");
+var tache17 = creerBrancheDeTache(integration, "a_5035_refacto");
 
 
 // MERGES ---------------------
