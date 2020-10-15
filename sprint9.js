@@ -26,5 +26,6 @@ var tache3 = creerBrancheDeTache(fonctionnalite3, "5007-integration-wkwebview");
 
 // MERGES --------------------
 fonctionnalite2.merge(tache1);
+creerMerge(integration, tache2);
 
 // FUSION aprés DEMO
