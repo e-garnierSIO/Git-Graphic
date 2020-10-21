@@ -29,5 +29,6 @@ var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_eleme
 fonctionnalite2.merge(tache1);
 creerMerge(integration, tache2);
 fonctionnalite3.merge(tache3);
+creerMerge(integration, fonctionnalite3);
 
 // FUSION aprés DEMO
