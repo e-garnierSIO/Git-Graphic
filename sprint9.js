@@ -19,7 +19,7 @@ var tache3 = creerBrancheDeTache(fonctionnalite3, "5007-integration-wkwebview");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_4866_migration_cordova9");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_IARD");
-var tache4 = creerBrancheDeFonctionnalite(fonctionnalite6,"5089-IARD-changement-du-service-bancaire");
+var tache4 = creerBrancheDeTache(fonctionnalite6,"5089-IARD-changement-du-service-bancaire");
 var tache5 = creerBrancheDeTache(integration, "5081-notification-app-en-time-out");
 
 
