@@ -20,7 +20,8 @@ var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_eleme
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_4866_migration_cordova9");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_IARD");
 var tache4 = creerBrancheDeTache(fonctionnalite6,"5089-IARD-changement-du-service-bancaire");
-var tache5 = creerBrancheDeTache(integration, "5081-notification-app-en-time-out");
+var fonctionnalite7 = creerBrancheDeFonctionnalite("f_evolution_notifications");
+var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time-out");
 
 
 // Branche SPRINT
