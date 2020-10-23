@@ -10,7 +10,6 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-var fonctionnalite8 = creerBrancheDeFonctionnalite("f_4866_migration_cordova9");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhogg");
 var tache2 = creerBrancheDeTache(integration, "a_4511-probleme-au-clic-sur-le-bouton-annuler");
@@ -37,6 +36,6 @@ creerMerge(integration, tache2);
 fonctionnalite3.merge(tache3);
 creerMerge(integration, fonctionnalite3);
 fonctionnalite6.merge(tache6);
-creerMerge(integration, fonctionnalite8);
+creerMerge(integration, fonctionnalite5);
 
 // FUSION aprés DEMO
