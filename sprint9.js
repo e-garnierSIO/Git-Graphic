@@ -22,6 +22,7 @@ var tache6 = creerBrancheDeTache(fonctionnalite6, "poc_4953-iard-pdf-iFrame");
 var tache4 = creerBrancheDeTache(fonctionnalite6,"5089-IARD-changement-du-service-bancaire");
 var fonctionnalite7 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time-out");
+var tache7 = creerBrancheDeTache(integration, "a_4520-ios-click-to-call");
 
 
 // Branche SPRINT
