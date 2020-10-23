@@ -10,7 +10,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-var fonctionnalite1 = creerBrancheDeFonctionnalite("f_4953_IARD_PDF_iFrame");
+var tache6 = creerBrancheDeTache(integration, "poc_4953-iard-pdf-iFrame");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "4555-vulnerabilites-strandhogg");
 var tache2 = creerBrancheDeTache(integration, "a_4511-probleme-au-clic-sur-le-bouton-annuler");
@@ -35,5 +35,6 @@ fonctionnalite2.merge(tache1);
 creerMerge(integration, tache2);
 fonctionnalite3.merge(tache3);
 creerMerge(integration, fonctionnalite3);
+creerMerge(integration, tache6);
 
 // FUSION aprés DEMO
