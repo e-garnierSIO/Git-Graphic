@@ -23,6 +23,7 @@ var tache4 = creerBrancheDeTache(fonctionnalite6,"5089-IARD-changement-du-servic
 var fonctionnalite7 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time-out");
 var tache7 = creerBrancheDeTache(integration, "a_4520-ios-click-to-call");
+var tache8 = creerBrancheDeTache(integration, "5179-ios-acces-comptes-autre-personne");
 
 
 // Branche SPRINT
