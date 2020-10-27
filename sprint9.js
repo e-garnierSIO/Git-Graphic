@@ -24,6 +24,7 @@ var fonctionnalite7 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time-out");
 var tache7 = creerBrancheDeTache(integration, "a_4520-ios-click-to-call");
 var tache8 = creerBrancheDeTache(integration, "5179-ios-acces-comptes-autre-personne");
+var tache9 = creerBrancheDeTache(integration, "a_5035_refacto");
 
 
 // Branche SPRINT
@@ -41,5 +42,7 @@ integration.commit("V20.05.00.900 à 903"); // tag
 fonctionnalite6.merge(tache6);
 creerMerge(integration, fonctionnalite5);
 fonctionnalite6.merge(tache4);
+fonctionnalite7.merge(tache5);
+fonctionnalite7.merge(tache9);
 
 // FUSION aprés DEMO
