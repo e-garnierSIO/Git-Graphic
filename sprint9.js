@@ -37,8 +37,8 @@ fonctionnalite2.merge(tache1);
 creerMerge(integration, tache2);
 fonctionnalite3.merge(tache3);
 creerMerge(integration, fonctionnalite3);
-fonctionnalite6.merge(tache6);
 integration.commit("V20.05.00.900 à 903"); // tag
+fonctionnalite6.merge(tache6);
 creerMerge(integration, fonctionnalite5);
 fonctionnalite6.merge(tache4);
 
