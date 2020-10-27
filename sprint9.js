@@ -39,5 +39,6 @@ fonctionnalite3.merge(tache3);
 creerMerge(integration, fonctionnalite3);
 fonctionnalite6.merge(tache6);
 creerMerge(integration, fonctionnalite5);
+fonctionnalite6.merge(tache4);
 
 // FUSION aprés DEMO
