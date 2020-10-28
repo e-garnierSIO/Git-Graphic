@@ -4,6 +4,7 @@
 var rouge = "#db1f12";
 var bleu = "#2469c9";
 var vert = "green";
+var orange = "#fc8719";
 //------------------------------
 
 function creerGitGraph(container) {
@@ -90,6 +91,21 @@ function creerBrancheDeTache(fonctionnalite, nom) {
     return tache;
 }
 
+function creerBrancheAnomalie(fonctionnalite, nom) {
+    var anomalie =  fonctionnalite.branch({
+        name: nom,
+        style: {
+            color: orange,
+            label: {
+                color: orange,
+                strokeColor: orange
+            }
+        }
+    });
+    creerCommitAnomalie(anomalie, "start");
+    return anomalie;
+}
+
 function creerBrancheDeMerge(fonctionnalite, nom) {
     var brancheDeMerge =  fonctionnalite.branch({
         name: nom
@@ -150,6 +166,17 @@ function creerCommitTache(tache, nom) {
         style: {
             dot: {
                 color: bleu
+            }
+        }
+    });
+}
+
+function creerCommitAnomalie(anomalie, nom) {
+    anomalie.commit({
+        subject: nom,
+        style: {
+            dot: {
+                color: orange
             }
         }
     });
