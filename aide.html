@@ -128,9 +128,9 @@
                      <br>
                      <br>
                     <h2 class="sous-titre">ANOMALIE</h2>
-                    <p>Dans le fichier sprintX.js, à la suite de la branche de fonctionnalité associée à l'anomalie :</p>
+                    <p>Dans le fichier sprintX.js, à la suite de la branche d'intégration :</p>
                     <div class="code">
-                        var anomalie1 = creerBrancheAnomalie(fonctionnalite1, "a_0000_nom_de_l_anomalie");
+                        var anomalie1 = creerBrancheAnomalie(integration, "a_0000_nom_de_l_anomalie");
                     </div>
                     <br>
                     <div id="graph-exemple11"></div>
@@ -139,7 +139,8 @@
                         var master = creerBrancheMaster(sprintY);
                         var integration = creerBrancheIntegration("integration_app_Y");
                         var fonctionnalite1 = creerBrancheDeFonctionnalite("f_nom_de_la_fonctionnalite");
-                        var anomalie1 = creerBrancheAnomalie(fonctionnalite1, "a_0000_nom_de_l_anomalie");
+                        var tache1 = creerBrancheDeTache(fonctionnalite1, "0000_nom_de_la_tache");
+                        var anomalie1 = creerBrancheAnomalie(integration, "a_0000_nom_de_l_anomalie");
                     </script>
                      <br>
                      <br>
