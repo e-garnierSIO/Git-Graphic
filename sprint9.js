@@ -25,6 +25,7 @@ var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time
 var anomalie2 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
 var anomalie3 = creerBrancheAnomalie(integration, "5179-ios-acces-comptes-autre-personne");
 var anomalie4 = creerBrancheAnomalie(integration, "a_5035_refacto");
+var anomalie5 = creerBrancheAnomalie(integration, "5157-erreur-500-au-tap-se-connecter");
 
 
 // Branche SPRINT
