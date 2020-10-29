@@ -31,6 +31,7 @@ var tache15 = creerBrancheDeTache(integration, "4948-maintient-de-profil");
 var tache16 = creerBrancheDeTache(integration, "362-diminution-des-appels-notifications-distantes");
 var tache17 = creerBrancheDeTache(integration, "a_5035_refacto");
 var tache17 = creerBrancheDeTache(integration, "5035-notification-impossible-d-activer-refus-pop-in-native");
+var tache18 = creerBrancheDeTache(integration, "a_5157_20_4");
 
 
 // MERGES ---------------------
@@ -76,4 +77,10 @@ var integration6 = creerBrancheDeMerge(integration5, "integration_systemteam_r20
 
 // MERGES (version 6)--------------------
 creerMerge(integration6, tache16);
+
+// Branche d'integration (version 7)
+var integration7 = creerBrancheDeMerge(integration6, "integration_systemteam_r20_4 (v20.04.01.001)");
+
+// MERGES (version 7)--------------------
+creerMerge(integration7, tache18);
 
