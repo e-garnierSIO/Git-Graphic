@@ -47,6 +47,7 @@ creerMerge(integration, fonctionnalite5);
 fonctionnalite6.merge(tache4);
 fonctionnalite7.merge(tache5);
 fonctionnalite7.merge(anomalie4);
+creerMerge(tache7, tache6);
 fonctionnalite6.merge(tache7);
 brancheSprint.merge(anomalie2);
 brancheSprint.merge(fonctionnalite6);
