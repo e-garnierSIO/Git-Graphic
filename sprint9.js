@@ -30,6 +30,7 @@ var tache7 = creerBrancheDeTache(fonctionnalite6,"5088_iard");
 
 
 // Branche SPRINT
+var brancheSprint = creerBrancheDeSprint("twenty_r05_s01");
 
 
 // Branche MERGE
@@ -46,5 +47,9 @@ fonctionnalite6.merge(tache4);
 fonctionnalite7.merge(tache5);
 fonctionnalite7.merge(anomalie4);
 fonctionnalite6.merge(tache7);
+brancheSprint.merge(anomalie2);
+brancheSprint.merge(fonctionnalite6);
+brancheSprint.merge(fonctionnalite7);
+
 
 // FUSION aprés DEMO
