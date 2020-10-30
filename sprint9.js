@@ -20,13 +20,14 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("f_4866_migration_cordova9");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_IARD");
 var tache6 = creerBrancheDeTache(fonctionnalite6, "poc_4953-iard-pdf-iFrame");
 var tache4 = creerBrancheDeTache(fonctionnalite6,"5089-IARD-changement-du-service-bancaire");
+var tache7 = creerBrancheDeTache(fonctionnalite6,"5088_iard");
 var fonctionnalite7 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache5 = creerBrancheDeTache(fonctionnalite7, "5081-notification-app-en-time-out");
 var anomalie2 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
 var anomalie3 = creerBrancheAnomalie(integration, "5179-ios-acces-comptes-autre-personne");
 var anomalie4 = creerBrancheAnomalie(integration, "a_5035_refacto");
 var anomalie5 = creerBrancheAnomalie(integration, "5157-erreur-500-au-tap-se-connecter");
-var tache7 = creerBrancheDeTache(fonctionnalite6,"5088_iard");
+
 
 
 // Branche SPRINT
