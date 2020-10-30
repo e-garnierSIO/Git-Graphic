@@ -26,6 +26,7 @@ var anomalie2 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
 var anomalie3 = creerBrancheAnomalie(integration, "5179-ios-acces-comptes-autre-personne");
 var anomalie4 = creerBrancheAnomalie(integration, "a_5035_refacto");
 var anomalie5 = creerBrancheAnomalie(integration, "5157-erreur-500-au-tap-se-connecter");
+var tache7 = creerBrancheDeTache(fonctionnalite6,"5088_iard");
 
 
 // Branche SPRINT
@@ -40,10 +41,10 @@ creerMerge(integration, anomalie1);
 fonctionnalite3.merge(tache3);
 creerMerge(integration, fonctionnalite3);
 integration.commit("V20.05.00.900 à 903"); // tag
-fonctionnalite6.merge(tache6);
 creerMerge(integration, fonctionnalite5);
 fonctionnalite6.merge(tache4);
 fonctionnalite7.merge(tache5);
 fonctionnalite7.merge(anomalie4);
+fonctionnalite6.merge(tache7);
 
 // FUSION aprés DEMO
