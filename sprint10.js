@@ -10,7 +10,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-
+var anomalie1 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
 
 
 
