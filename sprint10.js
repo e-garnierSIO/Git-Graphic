@@ -15,7 +15,7 @@ integration.commit("start");
 
 
 // Branche SPRINT
-//var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
+var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 
 
 // Branche MERGE
