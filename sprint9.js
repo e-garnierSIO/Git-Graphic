@@ -58,5 +58,5 @@ brancheSprint.merge(fonctionnalite7);
 creerMerge(integration, fonctionnalite6);
 creerMerge(integration, fonctionnalite7);
 creerMerge(integration, anomalie3);
-integration.commit("V20.05.00.906 et 907"); // tag
+integration.commit("V20.05.00.906 à 909"); // tag
 
