@@ -11,7 +11,7 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var anomalie1 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
-var fonctionnalite1 = creerBrancheDeFonctionnalite(integration, "f_localstorage");
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_localstorage");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_5246_local_storage_amelioration");
 
 
