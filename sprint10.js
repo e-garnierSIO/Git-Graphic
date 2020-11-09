@@ -13,6 +13,8 @@ integration.commit("start");
 var anomalie1 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_localstorage");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "t_5246_local_storage_amelioration");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_IARD");
+var anomalie2 = creerBrancheAnomalie(fonctionnalite2, "a_5361_redirection_iard");
 
 
 
