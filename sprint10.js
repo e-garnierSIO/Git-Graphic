@@ -29,6 +29,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 
 
 // MERGES --------------------
+fonctionnalite1.merge(tache1);
 
 
 
