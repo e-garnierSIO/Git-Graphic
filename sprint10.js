@@ -18,6 +18,7 @@ var anomalie2 = creerBrancheAnomalie(fonctionnalite2, "a_5361_redirection_iard")
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_5272_fluidifier_ouvertures_notifications");
 var tache3 = creerBrancheDeTache(integration, "t_5174_clean_sonar");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
 
 
 
