@@ -34,6 +34,8 @@ var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 // MERGES --------------------
 fonctionnalite1.merge(tache1);
 fonctionnalite3.merge(tache2);
+brancheSprint.merge(anomalie2);
+brancheSprint.merge(fonctionnalite3);
 
 
 
