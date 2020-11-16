@@ -19,6 +19,8 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_evolution_notifications");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_5272_fluidifier_ouvertures_notifications");
 var tache3 = creerBrancheDeTache(integration, "t_5174_clean_sonar");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_4173_homogeneisation_elements_stockage");
+var fonctionnalite5 = creerBrancheDeFonctionnalite("f_multiprofil_avec_nouveau_localstorage");
+var tache4 = creerBrancheDeTache(fonctionnalite5, "398-t_4497_integration_multiprofil_avec_nouveau_localstorage");
 
 
 
@@ -31,6 +33,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r05_s02");
 
 // MERGES --------------------
 fonctionnalite1.merge(tache1);
+fonctionnalite3.merge(tache2);
 
 
 
