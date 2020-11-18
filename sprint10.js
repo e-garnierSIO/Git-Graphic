@@ -41,3 +41,8 @@ brancheSprint.merge(fonctionnalite3);
 
 
 // FUSION aprés DEMO
+creerMerge(integration, fonctionnalite1);
+creerMerge(integration, anomalie2);
+creerMerge(integration, fonctionnalite3);
+
+
