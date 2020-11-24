@@ -13,7 +13,7 @@ integration.commit("start");
 var anomalie1 = creerBrancheAnomalie(integration, "a_4520-ios-click-to-call (+ 5423, 5425, 5543)");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_multiprofil_avec_nouveau_localstorage");
 var tache1 = creerBrancheDeTache(fonctionnalite1, "398-t_4497_integration_multiprofil_avec_nouveau_localstorage");
-var tache2 = creerBrancheDeTache(integration, "t-5512-inbenta-evolution-du-bouton-aide");
+var tache2 = creerBrancheDeTache(integration, "t-5512-inbenta-evolution-du-bouton-aide (= 5517)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
 
