@@ -16,6 +16,7 @@ var tache1 = creerBrancheDeTache(fonctionnalite1, "398-t_4497_integration_multip
 var tache2 = creerBrancheDeTache(integration, "t-5512-inbenta-evolution-du-bouton-aide (= 5517)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
+var anomalie2 = creerBrancheAnomalie(integration, "a_5526-tag-fingerprint");
 
 
 // MERGES (version 1)
