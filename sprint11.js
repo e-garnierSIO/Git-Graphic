@@ -5,7 +5,7 @@ var sprint11 = creerGitGraph("graph-container-11");
 var master = creerBrancheMaster(sprint11);
 
 // Branche d'integration (version 1)
-var integration = master.branch("integration_systemteam_R20_5 (v914 et v915)");
+var integration = master.branch("integration_systemteam_R20_5 (v914, v915 et v916)");
 integration.commit("start");
 
 
