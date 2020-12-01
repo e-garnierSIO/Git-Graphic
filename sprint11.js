@@ -26,7 +26,15 @@ creerMerge(integration, tache2);
 
 
 // Branche d'integration (version 2)
-var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_R20_5 (v9xx et v9xx)");
+var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_R20_5 (v917 et v918)");
 
 // MERGES (version 2)--------------------
 creerMerge(integration2, anomalie3);
+
+
+// Branche d'integration (version 3)
+var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_R20_5 (v9xx et v9xx)");
+
+// MERGES (version 3)--------------------
+
+
