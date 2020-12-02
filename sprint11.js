@@ -31,6 +31,7 @@ var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_R20_
 
 // MERGES (version 2)--------------------
 creerMerge(integration2, anomalie3);
+creerMerge(integration2, anomalie4);
 
 
 // Branche d'integration (version 3)
