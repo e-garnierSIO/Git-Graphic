@@ -18,6 +18,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette
 var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
 var anomalie2 = creerBrancheAnomalie(integration, "a_5526-tag-fingerprint");
 var anomalie3 = creerBrancheAnomalie(integration, "a_5601-loader-infini-a-la-connexion");
+var anomalie4 = creerBrancheAnomalie(integration, "a_5683-ios-carte-opposition-fraude");
 
 
 // MERGES (version 1)
