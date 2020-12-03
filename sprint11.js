@@ -30,6 +30,8 @@ integration.commit("V20.05.00.914, 915 et 916"); // tag
 creerMerge(integration, anomalie3);
 integration.commit("V20.05.00.917 et 918"); // tag
 creerMerge(integration, anomalie4);
+tache4.merge(tache1);
+tache4.merge(fonctionnalite2);
 
 
 
