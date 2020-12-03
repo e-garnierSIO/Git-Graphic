@@ -5,7 +5,7 @@ var sprint11 = creerGitGraph("graph-container-11");
 var master = creerBrancheMaster(sprint11);
 
 // Branche d'integration (version 1)
-var integration = master.branch("integration_systemteam_R20_5 (v914, v915 et v916)");
+var integration = master.branch("integration_systemteam_R20_5");
 integration.commit("start");
 
 
@@ -21,22 +21,14 @@ var anomalie3 = creerBrancheAnomalie(integration, "a_5601-loader-infini-a-la-con
 var anomalie4 = creerBrancheAnomalie(integration, "a_5683-ios-carte-opposition-fraude");
 
 
-// MERGES (version 1)
+// MERGES
 creerMerge(integration, anomalie1);
 creerMerge(integration, tache2);
+integration.commit("V20.05.00.914, 915 et 916"); // tag
+creerMerge(integration, anomalie3);
+creerMerge(integration, anomalie4);
+integration.commit("V20.05.00.917 et 918"); // tag
 
 
-// Branche d'integration (version 2)
-var integration2 = creerBrancheDeMerge(integration, "integration_systemteam_R20_5 (v917 et v918)");
-
-// MERGES (version 2)--------------------
-creerMerge(integration2, anomalie3);
-creerMerge(integration2, anomalie4);
-
-
-// Branche d'integration (version 3)
-var integration3 = creerBrancheDeMerge(integration2, "integration_systemteam_R20_5 (v9xx et v9xx)");
-
-// MERGES (version 3)--------------------
 
 
