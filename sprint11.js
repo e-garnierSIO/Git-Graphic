@@ -21,6 +21,7 @@ var anomalie3 = creerBrancheAnomalie(integration, "a_5601-loader-infini-a-la-con
 var anomalie4 = creerBrancheAnomalie(integration, "a_5683-ios-carte-opposition-fraude");
 var tache3 = creerBrancheDeTache(integration, "t-5256-enabler-tester-le-jeton-lbpf");
 var tache4 = creerBrancheDeTache(integration, "4497_5336");
+var anomalie5 = creerBrancheAnomalie(integration, "a_5748-menu-gerer-chargement-page-long");
 
 
 // MERGES
