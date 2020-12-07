@@ -22,6 +22,7 @@ var anomalie3 = creerBrancheAnomalie(integration, "a_5601-loader-infini-a-la-con
 var anomalie4 = creerBrancheAnomalie(integration, "a_5683-ios-carte-opposition-fraude");
 var tache3 = creerBrancheDeTache(integration, "t-5256-enabler-tester-le-jeton-lbpf");
 var anomalie5 = creerBrancheAnomalie(integration, "a_5748-menu-gerer-chargement-page-long");
+var anomalie6 = creerBrancheAnomalie(integration, "a_5908-suppression-du-plugin-gps");
 
 
 // MERGES
