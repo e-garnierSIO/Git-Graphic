@@ -10,7 +10,7 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-
+var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
 
 
 
@@ -22,7 +22,7 @@ integration.commit("start");
 
 
 // MERGES --------------------
-
+creerMerge(integration, fonctionnalite3);
 
 
 // FUSION aprés DEMO
