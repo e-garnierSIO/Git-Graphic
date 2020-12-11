@@ -10,8 +10,10 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
-
+var fonctionnalite1 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_multiprofil_avec_nouveau_localstorage");
+var tache1 = creerBrancheDeTache(fonctionnalite1, "398-t_4497_integration_multiprofil_avec_nouveau_localstorage");
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette");
 
 
 // Branche SPRINT
@@ -22,7 +24,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
 
 
 // MERGES --------------------
-creerMerge(integration, fonctionnalite3);
+creerMerge(integration, fonctionnalite1);
 
 
 // FUSION aprés DEMO
