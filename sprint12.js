@@ -17,7 +17,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette
 
 
 // Branche SPRINT
-//var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
 
 
 // Branche MERGE
