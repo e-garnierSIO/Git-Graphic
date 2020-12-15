@@ -14,6 +14,7 @@ var fonctionnalite1 = creerBrancheDeFonctionnalite("5429_poc_logs_c+");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_multiprofil_avec_nouveau_localstorage");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "398-t_4497_integration_multiprofil_avec_nouveau_localstorage (= 4173)");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
 
 
 // Branche SPRINT
