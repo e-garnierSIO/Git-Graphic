@@ -27,6 +27,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
 // MERGES --------------------
 creerMerge(integration, fonctionnalite1);
 fonctionnalite2.merge(tache1);
+brancheSprint.merge(fonctionnalite2);
 
 
 // FUSION aprés DEMO
