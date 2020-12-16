@@ -22,6 +22,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
 
 
 // Branche MERGE
+var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01_smartblette");
 
 
 // MERGES --------------------
