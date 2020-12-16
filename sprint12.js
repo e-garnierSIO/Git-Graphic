@@ -22,7 +22,7 @@ var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
 
 
 // Branche MERGE
-var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01_smartblette");
+
 
 
 // MERGES --------------------
@@ -30,6 +30,7 @@ creerMerge(integration, fonctionnalite1);
 fonctionnalite2.merge(tache1);
 brancheSprint.merge(fonctionnalite2);
 brancheSprint.merge(fonctionnalite3);
+var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01_smartblette");
 
 
 // FUSION aprés DEMO
