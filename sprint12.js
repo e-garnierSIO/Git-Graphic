@@ -19,7 +19,7 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("t-5256-enabler-tester-le-jet
 
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s01");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s01 (20.1.0.205)");
 
 
 // Branche MERGE
@@ -31,7 +31,7 @@ creerMerge(integration, fonctionnalite1);
 fonctionnalite2.merge(tache1);
 brancheSprint.merge(fonctionnalite2);
 brancheSprint.merge(fonctionnalite3);
-var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01_smartblette");
+var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01_smartblette (20.1.0.206)");
 
 
 // FUSION aprés DEMO
