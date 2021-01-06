@@ -37,5 +37,5 @@ var brancheSprintSmartblette = creerBrancheDeMerge(brancheSprint,"twenty_r01_s01
 // FUSION aprés DEMO
 creerMerge(integration, fonctionnalite2);
 creerMerge(integration, fonctionnalite3);
-integration.commit("V21.01.00.900 et 901"); // tag
+integration.commit("V21.01.00.900,901 et 903"); // tag
 
