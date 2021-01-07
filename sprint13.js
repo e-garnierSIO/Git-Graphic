@@ -10,9 +10,10 @@ integration.commit("start");
 
 
 // Branches FONCTIONNALITE et TACHES
-var fonctionnalite1 = creerBrancheDeFonctionnalite("f_LBPF");
-var fonctionnalite2 = creerBrancheDeFonctionnalite("f_IARD");
-var fonctionnalite3 = creerBrancheDeFonctionnalite("f_DSP2");
+var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
+var fonctionnalite2 = creerBrancheDeFonctionnalite("f_LBPF");
+var fonctionnalite3 = creerBrancheDeFonctionnalite("f_IARD");
+var fonctionnalite4 = creerBrancheDeFonctionnalite("f_DSP2");
 
 
 
