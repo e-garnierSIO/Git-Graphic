@@ -15,6 +15,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f-LBPF");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f-IARD");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f-DSP2");
+var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
 
 
 
