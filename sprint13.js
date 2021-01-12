@@ -12,7 +12,7 @@ integration.commit("start");
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f-LBPF");
-var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5824-stripes-lbpf");
+var tache1 = creerBrancheDeTache(fonctionnalite2, "t_5824-stripes-lbpf");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f-IARD");
 var tache2 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f-DSP2");
