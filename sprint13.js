@@ -13,8 +13,9 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f-LBPF");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "t_5824-stripes-lbpf");
+var tache2 = creerBrancheDeTache(fonctionnalite2, "t_5739-lbpf-stripes-menu-gerer");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f-IARD");
-var tache2 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
+var tache3 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f-DSP2");
 var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
 
