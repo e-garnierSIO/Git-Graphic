@@ -18,6 +18,7 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f-IARD");
 var tache3 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f-DSP2");
 var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
+var fonctionnalite5 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 
 
 
