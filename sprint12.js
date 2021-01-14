@@ -15,7 +15,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f_multiprofil_avec_nouveau_l
 var tache1 = creerBrancheDeTache(fonctionnalite2, "398-t_4497_integration_multiprofil_avec_nouveau_localstorage (= 4173)");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_5336_localstorage_tablette");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_vulnerabilites-strandhogg");
-var fonctionnalite5 = creerBrancheDeFonctionnalite("t-5256-enabler-tester-le-jeton-lbpf");
+var tache2 = creerBrancheDeFonctionnalite("t-5256-enabler-tester-le-jeton-lbpf");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 
 
