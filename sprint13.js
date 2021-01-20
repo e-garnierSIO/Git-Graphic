@@ -40,6 +40,7 @@ fonctionnalite3.merge(tache3);
 fonctionnalite2.merge(tache1);
 tache5.merge(tache4);
 tache6.merge(tache2);
+brancheSprint.merge(fonctionnalite3);
 
 
 // FUSION aprés DEMO
