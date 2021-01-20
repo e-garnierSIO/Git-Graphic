@@ -22,6 +22,7 @@ var tache4 = creerBrancheDeTache(fonctionnalite4, "t_auth_forte_moins_90_jours (
 var tache5 = creerBrancheDeTache(fonctionnalite4, "t_5898_auth_forte_plus_90_jours");
 var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
+var tache6 = creerBrancheDeTache(fonctionnalite2, "q4q-5922-iard-integration-alignement");
 
 
 
