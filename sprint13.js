@@ -15,6 +15,7 @@ var fonctionnalite2 = creerBrancheDeFonctionnalite("f-LBPF");
 var tache1 = creerBrancheDeTache(fonctionnalite2, "t_5824-stripes-lbpf");
 var tache2 = creerBrancheDeTache(fonctionnalite2, "t_5739-lbpf-stripes-menu-gerer");
 var tache6 = creerBrancheDeTache(fonctionnalite2, "t_5859-lbpf-mes-demandes-en-cours");
+var tache8 = creerBrancheDeTache(fonctionnalite2, "t_5850-lbpf-en-attente-de-signature");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f-IARD");
 var tache3 = creerBrancheDeTache(fonctionnalite3, "t_5911-iard-table-des-id-produits");
 var tache7 = creerBrancheDeTache(fonctionnalite3, "t_5922-iard-integration-alignement");
@@ -43,6 +44,7 @@ fonctionnalite2.merge(tache1);
 tache5.merge(tache4);
 tache6.merge(tache2);
 brancheSprint.merge(fonctionnalite3);
+tache8.merge(tache2);
 
 
 // FUSION aprés DEMO
