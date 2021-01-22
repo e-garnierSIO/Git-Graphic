@@ -43,6 +43,6 @@ fonctionnalite2.merge(tache1);
 tache5.merge(tache4);
 tache6.merge(tache2);
 tache8.merge(tache2);
-tache5.merge(fonctionnalite4);
+fonctionnalite4.merge(tache5);
 
 // FUSION aprés DEMO
