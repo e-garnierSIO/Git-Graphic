@@ -7,8 +7,6 @@ var master = creerBrancheMaster(sprint13);
 var integration = master.branch("integration_systemteam_r21_1");
 integration.commit("start");
 
-
-
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f-LBPF");
@@ -25,16 +23,8 @@ var tache5 = creerBrancheDeTache(fonctionnalite4, "t_5898_auth_forte_plus_90_jou
 var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 
-
-
-
-
-
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
-
-// Merge branche sprint
-brancheSprint.merge(fonctionnalite3);
 
 
 // MERGES --------------------
@@ -44,5 +34,8 @@ tache5.merge(tache4);
 tache6.merge(tache2);
 tache8.merge(tache2);
 fonctionnalite4.merge(tache5);
+
+// Merge branche sprint
+brancheSprint.merge(fonctionnalite3);
 
 // FUSION aprés DEMO
