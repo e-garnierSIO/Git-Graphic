@@ -40,5 +40,6 @@ fonctionnalite4.merge(tache5);
 brancheSprint.merge(fonctionnalite3);
 brancheSprint.merge(anomalie1);
 brancheSprint.merge(fonctionnalite2);
+brancheSprint.merge(fonctionnalite4);
 
 // FUSION aprés DEMO
