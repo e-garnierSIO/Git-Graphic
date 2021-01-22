@@ -35,6 +35,7 @@ tache5.merge(tache4);
 tache6.merge(tache2);
 tache8.merge(tache2);
 fonctionnalite4.merge(tache5);
+fonctionnalite3.merge(tache7);
 
 // Merge branche sprint
 brancheSprint.merge(fonctionnalite3);
