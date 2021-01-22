@@ -33,9 +33,8 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
 
-
-// Branche MERGE
-
+// Merge branche sprint
+brancheSprint.merge(fonctionnalite3);
 
 
 // MERGES --------------------
@@ -43,8 +42,7 @@ fonctionnalite3.merge(tache3);
 fonctionnalite2.merge(tache1);
 tache5.merge(tache4);
 tache6.merge(tache2);
-brancheSprint.merge(fonctionnalite3);
 tache8.merge(tache2);
-
+tache5.merge(fonctionnalite4);
 
 // FUSION aprés DEMO
