@@ -24,7 +24,7 @@ var anomalie1 = creerBrancheAnomalie(integration, "a_6464-photo-accueil");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 
 // Branche SPRINT
-var brancheSprint = creerBrancheDeSprint("twenty_r01_s02");
+var brancheSprint = creerBrancheDeSprint("twenty_r01_s02 (21.1.0.216)");
 
 
 // MERGES --------------------
