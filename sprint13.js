@@ -49,3 +49,4 @@ brancheSprint.commit("V21.01.00.216"); // tag
 creerMerge(integration, fonctionnalite2);
 creerMerge(integration, fonctionnalite3);
 creerMerge(integration, anomalie1);
+integration.commit("V21.01.00.906 et 907"); // tag
