@@ -14,7 +14,8 @@ var fonctionnalite3 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5850-lbpf-en-attente-de-signature");
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_DSP2");
 var tache2 = creerBrancheDeTache(fonctionnalite4, "t_6890-dsp2-integration-bloc-aem");
-
+var fonctionnalite5 = creerBrancheDeFonctionnalite("f_c+Stripe");
+var tache3 = creerBrancheDeTache(fonctionnalite5, "t_6613-certicode-plus-stripe");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
