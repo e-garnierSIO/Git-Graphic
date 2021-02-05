@@ -11,7 +11,7 @@ integration.commit("start");
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
 var ano6782 = creerBrancheAnomalie(fonctionnalite1, "a_6782");
 var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786");
-var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_5705");
+var ano5705 = creerBrancheAnomalie(integration, "a_5705");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5850-lbpf-en-attente-de-signature");
