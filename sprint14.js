@@ -9,9 +9,9 @@ integration.commit("start");
 
 // Branches FONCTIONNALITE et TACHES
 var fonctionnalite1 = creerBrancheDeFonctionnalite("f_simplification_notifs");
-var ano6782 = creerBrancheAnomalie(fonctionnalite1, "a_6782");
-var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786");
-var ano5705 = creerBrancheAnomalie(integration, "a_5705");
+var ano6782 = creerBrancheAnomalie(fonctionnalite1, "a_6782 (Simplification Notifs)");
+var ano6786 = creerBrancheAnomalie(fonctionnalite1, "a_6786 (Simplification Notifs)");
+var ano5705 = creerBrancheAnomalie(integration, "a_5705 (TouchID)");
 var fonctionnalite2 = creerBrancheDeFonctionnalite("f_tu_chrome_headless");
 var fonctionnalite3 = creerBrancheDeFonctionnalite("f_LBPF");
 var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5850-lbpf-en-attente-de-signature");
