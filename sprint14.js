@@ -18,11 +18,11 @@ var tache1 = creerBrancheDeTache(fonctionnalite3, "t_5850-lbpf-en-attente-de-sig
 var fonctionnalite4 = creerBrancheDeFonctionnalite("f_DSP2");
 var anomalie1 = creerBrancheAnomalie(fonctionnalite4, "a_6886_parcours_af_autre_device");
 var tache2 = creerBrancheDeTache(fonctionnalite4, "t_6890-dsp2-integration-bloc-aem");
+var anomalie2 = creerBrancheAnomalie(fonctionnalite4, "a_7108-reg-service-indisponible");
 var fonctionnalite5 = creerBrancheDeFonctionnalite("f_c+Stripe");
 var tache3 = creerBrancheDeTache(fonctionnalite5, "t_6613-certicode-plus-stripe");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache4 = creerBrancheDeTache(fonctionnalite6, "6385_gestion-cookies-mode-connecte");
-var anomalie2 = creerBrancheAnomalie(fonctionnalite4, "a_7108-reg-service-indisponible");
 
 
 // Branche SPRINT
