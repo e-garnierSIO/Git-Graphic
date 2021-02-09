@@ -29,7 +29,8 @@ var fonctionnalite6 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache4 = creerBrancheDeTache(fonctionnalite6, "6385_gestion-cookies-mode-connecte");
 var anomalie3 = creerBrancheAnomalie(integration, "a_6983-iard-vignette-principale");
 
-
+var fonctionnalite7 = creerBrancheDeFonctionnalite("f_C+Amelioration-Enrolement");
+var tache5 = creerBrancheDeTache(fonctionnalite6, "t_6917-certicode-plus-code-otp-sms");
 
 // Branche SPRINT
 var brancheSprint = creerBrancheDeSprint("twenty_r01_s03");
