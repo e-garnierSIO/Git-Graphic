@@ -27,6 +27,8 @@ var fonctionnalite5 = creerBrancheDeFonctionnalite("f_c+Stripe");
 var tache3 = creerBrancheDeTache(fonctionnalite5, "t_6613-certicode-plus-stripe");
 var fonctionnalite6 = creerBrancheDeFonctionnalite("f_gestion_cookies");
 var tache4 = creerBrancheDeTache(fonctionnalite6, "6385_gestion-cookies-mode-connecte");
+var anomalie3 = creerBrancheAnomalie(integration, "a_6983-iard-vignette-principale");
+
 
 
 // Branche SPRINT
